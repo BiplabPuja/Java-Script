@@ -6,16 +6,29 @@
                   color: antiquewhite;
                   background-color: rgb(77, 77, 85);
                   }
+            input{
+                  border :2px solid lawngreen;
+            }
+            form{
+                 background-color: rgb(107, 107, 42);
+                 margin: 00px 00px 700px 900px;
+                 border: 2px solid white;
+                 padding: 10px;
+            }
+                   
             
         </style>
         <body>
             <form>
-                <label for = "uname">Username</label>
-                <input type = "text" name = "uname" id = "uname" aria-placeholder="Enter Username"></input>
-                <label for = "pswd">Password</label> 
-                <input type = "password" name="pswd" id="pswd" aria-placeholder="Enter Password"></input><br>
-                <input type="submit" value="submit"></input>
+                <div class="mydiv">
+                <label for = "uname"><B>Username</B></label>
+                <input type = "text" name = "uname" id = "uname" placeholder="Enter Username" size="30"></input></br></br></br>
+                <label for = "pswd"><B>Password</B></label> 
+                <input type = "password" name="pswd" id="pswd" placeholder="Enter Password" size="30"></input><br></br></br>
+                <button type="submit" value="submit"><b>Submit</b></button>
+                <button style='margin:50px' type="button" name="cancel" value="cancel"><b>Cancel</b></button>
             </form>
+        </div>
         </body>
     </head>
 </html>
